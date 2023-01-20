@@ -3,7 +3,7 @@ const cors = require('cors')
 const os = require('os')
 const app = express()
 app.use(cors())
-const port = 8080
+const port = 80
 
 let requestCount = 0
 
