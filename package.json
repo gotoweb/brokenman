@@ -1,17 +1,19 @@
 {
-  "name": "cozserver",
+  "name": "brokenman",
   "version": "3.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "build": "docker buildx build --platform linux/amd64,linux/arm64 -t sebcontents/cozserver:3.0 --push ."
+    "build": "docker buildx build --platform linux/amd64,linux/arm64 -t gotoweb/brokenman:3.0 --push ."
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.17.1"
+    "dotenv": "^16.0.3",
+    "express": "^4.17.1",
+    "pg": "^8.8.0"
   }
 }
