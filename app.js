@@ -58,7 +58,7 @@ app.get('/touchdb', async (req, res) => {
 app.get('/breakdown', breakdown)
 
 app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`)
+  console.log(`${port} 포트에서 앱이 실행됩니다`)
 })
 
 process.on('SIGINT', async (sig) => {
